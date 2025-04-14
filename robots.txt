@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /post-signup-form.html
+Allow: /community-stories-signup-form.html
+Disallow: /docs/v*
+Disallow: /help-premium
+Disallow: /*.html$
+
+Sitemap: https://www.metabase.com/sitemap.xml
