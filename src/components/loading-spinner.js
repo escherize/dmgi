@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
 
 class LoadingSpinner extends Component {
 
@@ -11,6 +12,14 @@ class LoadingSpinner extends Component {
         );
     }
 }
+
+LoadingSpinner.propTypes = {
+    width: PropTypes.string,
+    height: PropTypes.string,
+    borderWidth: PropTypes.string,
+    className: PropTypes.string,
+    spinnerClassName: PropTypes.string,
+};
 
 LoadingSpinner.defaultProps = {
     width: '32px',

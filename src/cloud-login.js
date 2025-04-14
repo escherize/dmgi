@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Component } from "react";
 import { render } from "react-dom";
 
@@ -229,6 +230,11 @@ class InstanceSelect extends Component {
     );
   }
 }
+
+InstanceSelect.propTypes = {
+    instance: PropTypes.string,
+    instances: PropTypes.array,
+};
 
 /// Main
 
