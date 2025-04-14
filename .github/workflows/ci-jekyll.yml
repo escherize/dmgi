@@ -57,5 +57,4 @@ jobs:
         run: "script/build"
 
       - name: "Check all links"
-        # run: "script/links"
-        run: echo 'todo'
+        run: "script/links"
